@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="dark">
+  <header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Gallary/img12.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Gallary/img15.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="z-b">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="i-nav" src="Gallary/img04.png" alt=""></a>
+          <div class="d-flex">
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">pages</a>
+                <a class="nav-link" href="#">portfolio</a>
+                <a class="nav-link" href="#">blog</a>
+                <a class="nav-link" href="#">shop</a>
+                <a class="nav-link" href="#">element</a>
+                <a class="nav-link" onclick="darkMode()">&#9790;</a>
+                <div class="c-open">
+                <a class="nav-link" onclick="openNav()" href="#">&#9776;</a>
+                <div class="open-nav">
+                  <ul>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><li>log in</li></a>
+                    <a href="sign-up.html"> <li>sign up</li></a>
+                  </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="cen">
+        <p class="sof mt-5 mb-1">welcome to rosebud</p>
+        <h1>time to blossom</h1>
+        <p class="mt-3">a simply gorgous wordpress theme packed with everything you will need to create a delightful website for your
+          flower shop or florist business quickely and with ease.</p>
+        <div>
+          <button type="button" class="btn btn-outline-light mt-3">read more</button>
+          <button type="button" class="btn btn-outline-light mt-3">read more</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form action="index.html" target="_blank" method="post" onsubmit="return avalid()">
+              <label for="email">Email</label>
+              <input type="email" class="in" placeholder="******@gmail.com" id="mail">
+              <br><br>
+              <label for="pass">Password</label>
+              <input type="password" class="in" placeholder="abc123#!AB" id="pass">
+              <br><br>
+              <input type="submit" value="log in" class="btn btn-primary">
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+  </header>
+
+  <main>
+
+    <section class="container sec-1 mt-5">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 mb-sm-4">
+          <img src="Gallary/img05.png" alt="">
+          <p class="s-1-p">ready to be impressed</p>
+          <p class="gra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 mb-sm-4">
+          <img src="Gallary/img06.png" alt="">
+          <p class="s-1-p">powerfull solutions</p>
+          <p class="gra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. iste</p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="Gallary/img07.png" alt="">
+          <p class="s-1-p">leaders of tomorrow</p>
+          <p class="gra">Lorem ipsum dolor sit amet consectetur, adipisicing elit.quas,</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-2 mt-5 pb-5">
+      <div class="container">
+        <p class="sof mt-5 mb-0 pt-5">wonderful gift</p>
+        <h1 class="md mt-0 pt-1">our wonderful arrengement</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 gg">
+            <img src="Gallary/img08.jpg" alt="">
+            <p class="s-1-p mb-0">orange silk</p>
+            <p class="gra">$330</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 gg po-solt">
+            <img src="Gallary/img09.jpg" alt="">
+            <p class="s-1-p mb-0">dark forest</p>
+            <p class="gra">$250</p>
+            <p class="po">sold</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 gg po-sale">
+            <img src="Gallary/img10.jpg" alt="">
+            <p class="s-1-p mb-0">pearl roses</p>
+            <p class="gra"><span><s>$125 </s></span> $100</p>
+            <p class="po">sale</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 gg">
+            <img src="Gallary/img11.jpg" alt="">
+            <p class="s-1-p mb-0">rustic decor</p>
+            <p class="gra">$350</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-3">
+      <div class="container row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <span>86</span>
+          <p class="cap">blog posts</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <span>25</span>
+          <p class="cap">happy clients</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <span>17</span>
+          <p class="cap">web awards</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <span>98</span>
+          <p class="cap">flower sorts</p>
+        </div>
+      </div>
+    </section>
+
+    <section class=" container mt-5">
+      <div class=" row">
+        <div class="col-lg-6 col-md-6 col-md-12 bg">
+          <p class="sof mt-5 mb-0 pt-5 ppp">wonderful gift</p>
+          <h2 class="pt-0 mt-0 nnn">a perfect spot</h2>
+          <p>Lorem Lorem ipsum dolor sit amet. ipsum dolor sit, amet consectetur adipisicing elit. Itaque laudantium sit
+            quam pariatur minus aspernatur porro reprehenderit animi sed voluptates. </p>
+          <button type="button" class="btn btn-outline-dark">read more</button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-md-12 gg mt-5 ps-5">
+          <img src="Gallary/img14.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class=" mt-5 sec-5">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Gallary/img15.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Gallary/img12.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item gg">
+            <img src="Gallary/img15.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="z-p">
+        <div class="cenp">
+          <p class="sof mt-5 mb-0 pt-5">testimonials</p>
+          <h1>an experience delivered</h1>
+          <p class="mt-3">a simply gorgous wordpress theme packed with everything Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, doloremque. you will need to create a delightful website for your
+            flower shop or florist business quickely .</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="sec-6 mt-5">
+      <div class="container">
+        <p class="sof mt-5 mb-0 pt-5">wonderful gift</p>
+        <p class="md mt-0 pt-0">our team of experts</p>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 gg">
+            <img src="Gallary/img17.jpg" alt="">
+            <p class="s-1-p mb-0">mason robinson</p>
+            <p class="gra mb-0">florist</p>
+            <div class="mt-1 icop">
+              <i class="fab fa-facebook me-2"></i>
+              <i class="fab fa-twitter me-2"></i>
+              <i class="fab fa-linkedin me-2"></i>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 gg">
+            <img src="Gallary/img18.jpg" alt="">
+            <p class="s-1-p mb-0">amber green</p>
+            <p class="gra mb-0">designer</p>
+            <div class="mt-1 icop">
+              <i class="fab fa-facebook me-2"></i>
+              <i class="fab fa-twitter me-2"></i>
+              <i class="fab fa-linkedin me-2"></i>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 gg">
+            <img src="Gallary/img19.jpg" alt="">
+            <p class="s-1-p mb-0">amely hunter</p>
+            <p class="gra mb-0">florist</p>
+            <div class="mt-1 icop">
+              <i class="fab fa-facebook me-2"></i>
+              <i class="fab fa-twitter me-2"></i>
+              <i class="fab fa-linkedin me-2"></i>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 gg">
+            <img src="Gallary/img20.jpg" alt="">
+            <p class="s-1-p mb-0">amber green</p>
+            <p class="gra mb-0">founder</p>
+            <div class="mt-1 icop">
+              <i class="fab fa-facebook me-2"></i>
+              <i class="fab fa-twitter me-2"></i>
+              <i class="fab fa-linkedin me-2"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row g-0 mt-3">
+      <img class="col-lg-3 col-md-6 col-sm-12" src="Gallary/img21.jpg" alt="">
+      <img class="col-lg-3 col-md-6 col-sm-12" src="Gallary/img22.jpg" alt="">
+      <img class="col-lg-3 col-md-6 col-sm-12" src="Gallary/img23.jpg" alt="">
+      <img class="col-lg-3 col-md-6 col-sm-12" src="Gallary/img24.jpg" alt="">
+    </section>
+
+    <section class="sec-8 pb-2">
+      <p class="md mm mb-1">subscribe to our weekly newsletter</p>
+      <input class="in" type="text" name="" id="" placeholder="your e-mail address">
+      <button type="button" class="btn btn-dark ms-0">send message</button>
+    </section>
+
+  </main>
+
+  <footer class="pt-5">
+    <div class="row container-fluid pb-5">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <img class="i-nav mb-4" id="imgg" src="Gallary/img04.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae dolorem minus doloremque enim.
+        </p>
+        <div class="mt-3 ico">
+          <i class="fab fa-facebook me-2"></i>
+          <i class="fab fa-twitter me-2"></i>
+          <i class="fab fa-linkedin me-2"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p class="s-1-p pp">working hours</p>
+        <p>monday : 10AM - 9PM</p>
+        <p>tuesday : 10AM - 9PM</p>
+        <p>wednesday : 10AM - 9PM</p>
+        <p>thursday : 10AM - 9PM</p>
+        <p>friday : 10AM - 9PM</p>
+        <p>saturday : 10AM - 5PM</p>
+        <p>sunday : closed</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p class="s-1-p pp">where to find us</p>
+        <p>adress:juniper vally 17, new york</p>
+        <p>adress 2:831 elm st, new york</p>
+        <p>phone 1: +246/167-1468</p>
+        <p>phone 2: +246/569-42696</p>
+        <p>e-mail:rosebud@qodeinteractive.com</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p class="s-1-p pp">follow our instagram</p>
+        <div class="row g-2">
+          <img class="col-4" src="Gallary/img26.jpg" alt="">
+          <img class="col-4" src="Gallary/img27.jpg" alt="">
+          <img class="col-4" src="Gallary/img28.jpg" alt="">
+          <img class="col-4" src="Gallary/img29.jpg" alt="">
+          <img class="col-4" src="Gallary/img30.jpg" alt="">
+          <img class="col-4" src="Gallary/img31.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <p class="rights">&#169;2018 qode interactive, all rights reserved</p>
+  </footer>
+ </div>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

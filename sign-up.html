@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="h-bo">
+  <fieldset class="f-up ">
+      <legend class="l-s">Sign-Up</legend>
+      <form action="index.html" target="_blank" method="post" class="s-up" onsubmit="return avalid()">
+          <h3 id="error"></h3>
+          <label for="user name">User Name </label><br>
+          <input type="text" placeholder="Enter full name" class="innn" id="username">
+          <br><br>
+          <label for="email">Email </label><br>
+          <input type="email" placeholder="******@gmail.com" class="innn" id="mail">
+          <br><br>
+          <label for="pass">Password </label><br>
+          <input type="password" placeholder="abc123#!AB" class="innn" id="pass">
+          <br><br>
+          <label for="pass">Confirm Password </label><br>
+          <input type="password" class="innn" id="copass">
+          <br><br>
+          <input type="checkbox" name="conform" id="in">
+          <label for="in">You agree to the store's <span class="co-s">terms of use</span> and <span
+                  class="co-s">privacy notice</span></label><br><br>
+          <input type="submit" value="Sign Up" id="bt">
+          <script src="../js/mean.js"></script>
+      </form>
+  </fieldset>
+  <script src="main.js"></script>
+</body>
+</html>
